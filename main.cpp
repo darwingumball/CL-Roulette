@@ -79,7 +79,8 @@ int main() {
         // Display the updated player's balance
         std::cout << "Player " << i + 1 << "'s Balance: $" << player.GetBankBalance() << std::endl;
     }
-
+// if you wanted to you can remove this main call to end the game after one bet cycle, 
+// or you can make a save data loop starting right before NumGen is originally called and asking players once bet round is finished if they would like to continue.
     main();
 }
 
